@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243F539F2EBCDCB6006A2B31 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243F539E2EBCDCB6006A2B31 /* MyApp.swift */; };
 		880B5A2E24ED518000DB3EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B5A2D24ED518000DB3EE5 /* AppDelegate.swift */; };
 		880B5A3024ED518000DB3EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B5A2F24ED518000DB3EE5 /* SceneDelegate.swift */; };
 		880B5A3224ED518000DB3EE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B5A3124ED518000DB3EE5 /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243F539E2EBCDCB6006A2B31 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		880B5A2A24ED518000DB3EE5 /* SwiftUISamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		880B5A2D24ED518000DB3EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		880B5A2F24ED518000DB3EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,17 +49,13 @@
 /* Begin PBXFrameworksBuildPhase section */
 		880B5A2724ED518000DB3EE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		880B5A3D24ED518300DB3EE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -92,6 +90,7 @@
 				880B5A3524ED518300DB3EE5 /* Preview Content */,
 				880B5A4F24ED5A5500DB3EE5 /* CircleImage.swift */,
 				8849ED5B24EE927F00776A87 /* MapView.swift */,
+				243F539E2EBCDCB6006A2B31 /* MyApp.swift */,
 			);
 			path = SwiftUISamples;
 			sourceTree = "<group>";
@@ -125,8 +124,6 @@
 				880B5A2824ED518000DB3EE5 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = SwiftUISamples;
 			productName = SwiftUISamples;
@@ -171,7 +168,6 @@
 				};
 			};
 			buildConfigurationList = 880B5A2524ED518000DB3EE5 /* Build configuration list for PBXProject "SwiftUISamples" */;
-			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -179,6 +175,7 @@
 				Base,
 			);
 			mainGroup = 880B5A2124ED518000DB3EE5;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 880B5A2B24ED518000DB3EE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,43 +189,36 @@
 /* Begin PBXResourcesBuildPhase section */
 		880B5A2824ED518000DB3EE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				880B5A3A24ED518300DB3EE5 /* LaunchScreen.storyboard in Resources */,
 				880B5A3724ED518300DB3EE5 /* Preview Assets.xcassets in Resources */,
 				880B5A3424ED518300DB3EE5 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		880B5A3E24ED518300DB3EE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		880B5A2624ED518000DB3EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				880B5A2E24ED518000DB3EE5 /* AppDelegate.swift in Sources */,
 				880B5A5024ED5A5500DB3EE5 /* CircleImage.swift in Sources */,
 				8849ED5C24EE927F00776A87 /* MapView.swift in Sources */,
 				880B5A3024ED518000DB3EE5 /* SceneDelegate.swift in Sources */,
 				880B5A3224ED518000DB3EE5 /* ContentView.swift in Sources */,
+				243F539F2EBCDCB6006A2B31 /* MyApp.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		880B5A3C24ED518300DB3EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				880B5A4524ED518300DB3EE5 /* SwiftUISamplesTests.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -252,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		880B5A4724ED518300DB3EE5 /* Debug */ = {
+		880B5A4724ED518300DB3EE5 /* Debug configuration for PBXProject "SwiftUISamples" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		880B5A4824ED518300DB3EE5 /* Release */ = {
+		880B5A4824ED518300DB3EE5 /* Release configuration for PBXProject "SwiftUISamples" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +356,7 @@
 			};
 			name = Release;
 		};
-		880B5A4A24ED518300DB3EE5 /* Debug */ = {
+		880B5A4A24ED518300DB3EE5 /* Debug configuration for PBXNativeTarget "SwiftUISamples" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -374,18 +364,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISamples/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUISamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.swiftui.SwiftUISamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		880B5A4B24ED518300DB3EE5 /* Release */ = {
+		880B5A4B24ED518300DB3EE5 /* Release configuration for PBXNativeTarget "SwiftUISamples" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -393,18 +384,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISamples/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUISamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.swiftui.SwiftUISamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		880B5A4D24ED518300DB3EE5 /* Debug */ = {
+		880B5A4D24ED518300DB3EE5 /* Debug configuration for PBXNativeTarget "SwiftUISamplesTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -425,7 +417,7 @@
 			};
 			name = Debug;
 		};
-		880B5A4E24ED518300DB3EE5 /* Release */ = {
+		880B5A4E24ED518300DB3EE5 /* Release configuration for PBXNativeTarget "SwiftUISamplesTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -452,28 +444,25 @@
 		880B5A2524ED518000DB3EE5 /* Build configuration list for PBXProject "SwiftUISamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				880B5A4724ED518300DB3EE5 /* Debug */,
-				880B5A4824ED518300DB3EE5 /* Release */,
+				880B5A4724ED518300DB3EE5 /* Debug configuration for PBXProject "SwiftUISamples" */,
+				880B5A4824ED518300DB3EE5 /* Release configuration for PBXProject "SwiftUISamples" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		880B5A4924ED518300DB3EE5 /* Build configuration list for PBXNativeTarget "SwiftUISamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				880B5A4A24ED518300DB3EE5 /* Debug */,
-				880B5A4B24ED518300DB3EE5 /* Release */,
+				880B5A4A24ED518300DB3EE5 /* Debug configuration for PBXNativeTarget "SwiftUISamples" */,
+				880B5A4B24ED518300DB3EE5 /* Release configuration for PBXNativeTarget "SwiftUISamples" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		880B5A4C24ED518300DB3EE5 /* Build configuration list for PBXNativeTarget "SwiftUISamplesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				880B5A4D24ED518300DB3EE5 /* Debug */,
-				880B5A4E24ED518300DB3EE5 /* Release */,
+				880B5A4D24ED518300DB3EE5 /* Debug configuration for PBXNativeTarget "SwiftUISamplesTests" */,
+				880B5A4E24ED518300DB3EE5 /* Release configuration for PBXNativeTarget "SwiftUISamplesTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
